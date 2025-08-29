@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.chrome import Chromedriver
 def open_browser(url):
-    driver = webdriver.Chrome()  # Make sure ChromeDriver is in your PATH
+    driver = webdriver.Chrome()
     driver.get(url)
     driver.maximize_window()
     return driver
